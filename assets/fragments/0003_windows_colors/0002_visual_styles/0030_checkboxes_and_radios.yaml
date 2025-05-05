@@ -1,0 +1,57 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom checkboxes and radios
+        vs_checkbox_custom: yes
+      
+    named_colors:
+      "@attributes":
+
+        # - - - Custom checkboxes and radios - - -
+
+        # Text
+        vs_checkbox_text: var(--ctp-text)
+
+        # Text - Disabled
+        vs_checkbox_text_disabled: var(--ctp-surface2)
+
+
+        # Background
+        vs_checkbox_background: var(--ctp-crust)
+
+        # Background - Hot
+        vs_checkbox_background_hot: var(--ctp-mantle)
+
+        # Background - Pressed
+        vs_checkbox_background_pressed: var(--ctp-surface1)
+
+        # Background - Disabled
+        vs_checkbox_background_disabled: var(--ctp-surface0)
+
+
+        # Border
+        vs_checkbox_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_checkbox_border_hot: var(--ctp-accent-color)
+
+        # Border - Pressed
+        vs_checkbox_border_pressed: var(--ctp-accent-color)
+
+        # Border - Disabled
+        vs_checkbox_border_disabled: var(--ctp-surface0)
+
+
+        # Glyph
+        vs_checkbox_glyph: var(--ctp-accent-color)
+
+        # Glyph - Hot
+        vs_checkbox_glyph_hot: var(--ctp-text)
+
+        # Glyph - Pressed
+        vs_checkbox_glyph_pressed: var(--ctp-text)
+
+        # Glyph - Disabled
+        vs_checkbox_glyph_disabled: var(--ctp-overlay0)

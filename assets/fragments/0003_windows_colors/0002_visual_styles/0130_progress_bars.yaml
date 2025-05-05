@@ -1,0 +1,38 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom progress bars
+        vs_progress_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom progress bars - - -
+
+        # Background
+        vs_progress_background: var(--ctp-crust)
+
+        # Frame
+        vs_progress_frame: var(--ctp-surface0)
+
+
+        # Bar - Normal
+        vs_progress_bar_normal: var(--ctp-green)
+
+        # Bar - Error
+        vs_progress_bar_error: var(--ctp-red)
+
+        # Bar - Paused
+        vs_progress_bar_paused: var(--ctp-yellow)
+
+        # Bar - Partial
+        vs_progress_bar_partial: var(--ctp-blue)
+
+
+        # Pulse
+        vs_progress_pulse: var(--ctp-text, 255)
+
+        # Glow
+        vs_progress_glow: var(--ctp-text, 54)

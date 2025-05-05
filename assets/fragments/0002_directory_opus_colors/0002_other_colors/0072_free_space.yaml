@@ -1,0 +1,24 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        graph_freespace_custom_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Free space graphs - - -
+
+        # Normal bar
+        graph_freespace_bar_normal: var(--ctp-blue)
+
+        # Warning bar
+        graph_freespace_bar_warning: var(--ctp-red)
+
+        # Frame
+        graph_freespace_frame: var(--ctp-surface0)
+
+        # Background
+        graph_freespace_back: var(--ctp-crust)

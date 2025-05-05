@@ -1,0 +1,79 @@
+opus_theme_nc:
+  colors:
+
+    gridlines:
+      # style values:
+      # 0 - Solid line
+      # 1 - Dithered line
+      # 2 - Dotted line
+      # 3 - Dashed line
+      # 4 - Dash, dot line
+      # 5 - Dash, dot, dot line
+      # 6 - Alternating rows
+      # NOTES:
+      # - Requires grid_details_* to be set to yes!
+      # - Colors not chose for alternating rows, must be assigned manually!
+      details:
+        horiz:
+          "@attributes":
+            style: 0
+      power:
+        horiz:
+          "@attributes":
+            style: 0
+
+    named_color_bools:
+      "@attributes":
+
+        # Details mode - Horizontal
+        fd_grid_details_horiz: no
+
+        # Details mode - Vertical
+        fd_grid_details_vert: no
+
+        # Details mode - Grid lines only in source file display
+        fd_grid_details_sourceonly: no
+
+        # Details mode - Horizontal lines past the end of the file list
+        fd_grid_details_belowfiles: no
+
+
+
+        # Power mode - Horizontal
+        fd_grid_power_horiz: no
+
+        # Power mode - Vertical
+        fd_grid_power_vert: no
+
+        # Power mode - Grid lines only in source file display
+        fd_grid_power_sourceonly: no
+
+        # Power mode - Horizontal lines past the end of the file list
+        fd_grid_power_belowfiles: no
+
+    named_colors:
+      "@attributes":
+
+        # - - - Grid lines - Details mode - - -
+
+        # Horizontal
+        fd_grid_details_horiz: var(--ctp-surface0, 140)
+
+        # Vertical
+        fd_grid_details_vert: var(--ctp-surface0, 140)
+
+
+        # - - - Grid lines - Power mode - - -
+
+        # Horizontal
+        fd_grid_power_horiz: var(--ctp-surface0, 140)
+
+        # Vertical
+        fd_grid_power_vert: var(--ctp-surface0, 140)
+
+
+
+        # - - - Frozen columns - - -
+
+        # Separator
+        fd_frozen_separator: var(--ctp-blue, 220)

@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Highlighted cells - - -
+
+        # Text
+        fd_highlightfields_text: var(--ctp-mantle)
+
+        # Background
+        fd_highlightfields_back: var(--ctp-yellow)

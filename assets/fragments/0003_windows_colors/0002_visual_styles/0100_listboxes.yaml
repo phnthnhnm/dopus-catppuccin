@@ -1,0 +1,24 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom listboxes
+        vs_listbox_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom listboxes - - -
+
+        # Border
+        vs_listbox_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_listbox_border_hot: var(--ctp-surface1)
+
+        # Border - Focused
+        vs_listbox_border_focused: var(--ctp-surface2)
+
+        # Border - Disabled
+        vs_listbox_border_disabled: var(--ctp-surface0)

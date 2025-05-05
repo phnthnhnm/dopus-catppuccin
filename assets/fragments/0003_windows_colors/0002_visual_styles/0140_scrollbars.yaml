@@ -1,0 +1,42 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom scrollbars (always)
+        vs_scrollbar_custom_always: yes
+
+        # Custom if system theme is bad (Windows 11)
+        vs_scrollbar_custom_if_bad_os: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom scrollbars - - -
+
+        # Background - Pressed
+        vs_scrollbar_background_pressed: var(--ctp-surface0)
+
+        # Frame
+        vs_scrollbar_border: var(--ctp-surface0)
+
+        # Button
+        vs_scrollbar_button: var(--ctp-overlay1)
+
+        # Button - Hot
+        vs_scrollbar_button_hot: var(--ctp-overlay2)
+
+        # Button - Pressed
+        vs_scrollbar_button_pressed: var(--ctp-overlay2)
+
+        # Button border
+        vs_scrollbar_button_border: var(--ctp-surface0)
+
+        # Glyph
+        vs_scrollbar_glyph: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_scrollbar_glyph_hot: var(--ctp-crust)
+
+        # Glyph - Pressed
+        vs_scrollbar_glyph_pressed: var(--ctp-text)

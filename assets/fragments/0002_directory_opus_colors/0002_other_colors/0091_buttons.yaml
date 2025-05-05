@@ -1,0 +1,56 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        fdb_toolbar_button_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Location bar - Source - - -
+
+        # Active selected
+        locationbar_active_source_selected: var(--ctp-overlay0, 255)
+
+        # Active toggled
+        locationbar_active_source_toggled: var(--ctp-overlay0, 240)
+
+        # Inactive selected
+        locationbar_inactive_source_selected: var(--ctp-overlay0, 30)
+
+        # Inactive toggled
+        locationbar_inactive_source_toggled: var(--ctp-overlay0, 60)
+
+
+
+        # - - - Location bar - Destination - - -
+
+        # Active selected
+        locationbar_active_dest_selected: var(--ctp-overlay0, 255)
+
+        # Active toggled
+        locationbar_active_dest_toggled: var(--ctp-overlay0, 240)
+
+        # Inactive selected
+        locationbar_inactive_dest_selected: var(--ctp-overlay0, 30)
+
+        # Inactive toggled
+        locationbar_inactive_dest_toggled: var(--ctp-overlay0, 60)
+
+
+
+        # - - - Location bar - Off - - -
+
+        # Active selected
+        locationbar_active_off_selected: var(--ctp-overlay0, 255)
+
+        # Active toggled
+        locationbar_active_off_toggled: var(--ctp-overlay0, 240)
+
+        # Inactive selected
+        locationbar_inactive_off_selected: var(--ctp-overlay0, 30)
+
+        # Inactive toggled
+        locationbar_inactive_off_toggled: var(--ctp-overlay0, 60)

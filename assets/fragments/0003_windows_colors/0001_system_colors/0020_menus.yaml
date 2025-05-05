@@ -1,0 +1,18 @@
+opus_theme_nc:
+  colors:
+    system_colors:
+      "@attributes":
+
+        # - - - Menus - - -
+
+        # Text
+        MENUTEXT: var(--ctp-text)
+
+        # Background
+        MENU: var(--ctp-base)
+
+        # Selection
+        MENUHILIGHT: var(--ctp-surface1)
+
+        # Menu bar
+        MENUBAR: var(--ctp-base)

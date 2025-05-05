@@ -1,0 +1,44 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Rating stars - - -
+
+        # Set - Fill
+        star_set_fill: var(--ctp-yellow, 255)
+
+        # Set - Outline
+        star_set_outline: var(--ctp-text, 255)
+
+        # Clear - Fill
+        star_unset_fill: var(--ctp-base, 140)
+
+        # Clear - Outline
+        star_unset_outline: var(--ctp-text, 180)
+
+
+
+        # - - - Hotkeys - - -
+
+        # Text
+        hotkey_text: var(--ctp-subtext0)
+
+        # Background
+        hotkey_background: var(--ctp-surface0)
+
+        # Border
+        hotkey_border: var(--ctp-surface1)
+
+
+
+        # - - - Splitter controls - - -
+
+        # Separator
+        opussplitter_separator: var(--ctp-surface0)
+
+        # Hot
+        opussplitter_hot: var(--ctp-accent-color)
+
+        # Pushed
+        opussplitter_pushed: var(--ctp-text)

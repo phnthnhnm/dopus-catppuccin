@@ -1,0 +1,33 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom listviews (always)
+        vs_listview_custom: yes
+        
+        # Custom if system theme is bad (Windows 11)
+        vs_listview_custom_if_bad_os: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom listviews - - -
+
+        # Frame
+        vs_listview_frame: var(--ctp-surface0)
+
+        # Empty text
+        vs_listview_empty_text: var(--ctp-overlay0)
+
+        # Insertion marker
+        vs_listview_drop_insert_marker: var(--ctp-overlay0)
+
+
+        # - - - Column separator - - -
+
+        # Left
+        vs_listview_columndetail_left: var(--ctp-surface2, 40)
+
+        # Right
+        vs_listview_columndetail_right: var(--ctp-surface2, 40)

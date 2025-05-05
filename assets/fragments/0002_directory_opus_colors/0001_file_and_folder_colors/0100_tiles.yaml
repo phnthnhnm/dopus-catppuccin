@@ -1,0 +1,31 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Frames
+        tiles_frames: yes
+
+        # Filled interiors
+        tiles_fills: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Frames - - -
+
+        # Highlight
+        tiles_frame_1: var(--ctp-surface1)
+
+        # Shadow
+        tiles_frame_2: var(--ctp-surface1)
+
+
+
+        # - - - Tiles mode - - -
+
+        # Gradient Left
+        tiles_interior_1: var(--ctp-surface0)
+
+        # Gradient Right
+        tiles_interior_2: var(--ctp-surface0)

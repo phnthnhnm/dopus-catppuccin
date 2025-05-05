@@ -1,0 +1,51 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Drag & drop - - -
+
+        # Glyph - Outline
+        vs_dragdrop_glyph_outline: var(--ctp-surface2)
+
+
+
+        # - - - Drag & drop - Normal - - -
+
+        # Action
+        vs_dragdrop_normal_action: var(--ctp-sapphire)
+
+        # Path
+        vs_dragdrop_normal_path: var(--ctp-lavender)
+
+        # Glyph
+        vs_dragdrop_normal_glyph: var(--ctp-blue)
+
+
+
+        # - - - Drag & drop - Warning - - -
+
+        # Action
+        vs_dragdrop_warning_action: var(--ctp-peach)
+
+        # Path
+        vs_dragdrop_warning_path: var(--ctp-rosewater)
+
+        # Glyph
+        vs_dragdrop_warning_glyph: var(--ctp-yellow)
+
+        # Glyph - Mark
+        vs_dragdrop_warning_glyph_mark: var(--ctp-crust)
+
+
+
+        # - - - Drag & drop - Error - - -
+
+        # Action
+        vs_dragdrop_error_action: var(--ctp-red)
+
+        # Path
+        vs_dragdrop_error_path: var(--ctp-pink)
+
+        # Glyph
+        vs_dragdrop_error_glyph: var(--ctp-red)

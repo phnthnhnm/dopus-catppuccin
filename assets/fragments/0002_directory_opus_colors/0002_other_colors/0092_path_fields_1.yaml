@@ -1,0 +1,34 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Path fields - - -
+
+        # Text
+        pathfield_text_normal: var(--ctp-text)
+
+        # Text - Hot
+        pathfield_text_hot: var(--ctp-accent-color)
+
+        # Text - Pressed
+        pathfield_text_pushed: var(--ctp-blue)
+
+        # Text - Focused
+        pathfield_text_focused: var(--ctp-subtext1)
+
+
+
+        # Glyph
+        pathfield_glyph_normal: var(--ctp-text)
+
+        # Glyph - Hot
+        pathfield_glyph_hot: var(--ctp-accent-color)
+
+        # Glyph - Pressed
+        pathfield_glyph_pished: var(--ctp-subtext1)
+
+
+
+        # Ghost
+        pathfield_ghost: var(--ctp-overlay0)

@@ -1,0 +1,42 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Path field surroundings - - -
+
+        # Background
+        pathfield_back_normal: var(--ctp-mantle)
+
+        # Background - Hot
+        pathfield_back_hot: var(--ctp-mantle, 127)
+
+        # Background - Focussed
+        pathfield_back_focused: var(--ctp-mantle)
+
+
+        # Border
+        pathfield_frame_normal: var(--ctp-surface0, 127)
+
+        # Border - Hot
+        pathfield_frame_hot: var(--ctp-surface1, 127)
+
+        # Border - Focussed
+        pathfield_frame_focused: var(--ctp-accent-color, 191)
+
+
+
+        # - - - Breadcrumbs - - -
+
+        # Background - Hot
+        pathfield_button_back_hot: var(--ctp-overlay0, 52)
+
+        # Background - Pressed
+        pathfield_button_back_pushed: var(--ctp-overlay0, 104)
+
+
+        # Border - Hot
+        pathfield_button_frame_hot: var(--ctp-overlay0, 104)
+
+        # Border - Pressed
+        pathfield_button_frame_pushed: var(--ctp-overlay0, 208)

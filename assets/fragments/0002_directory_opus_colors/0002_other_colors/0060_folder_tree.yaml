@@ -1,0 +1,33 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Folder tree - - -
+
+        # Unselected text
+        foldertree_unsel_text: var(--ctp-text)
+
+        # Unselected background
+        foldertree_unsel_background: none
+
+        # Selected text
+        foldertree_sel_text: var(--ctp-text)
+
+        # Selected background
+        foldertree_sel_background: var(--ctp-overlay0)
+
+        # Background
+        foldertree_background: var(--ctp-mantle)
+
+        # Glyph
+        foldertree_glyph_source: var(--ctp-accent-color)
+
+        # Glyph - Hot
+        foldertree_glyph_source_hot: var(--ctp-text)
+
+        # Pins
+        foldertree_pins_source: var(--ctp-accent-color)
+
+        # Pins - Hot
+        foldertree_pins_source_hot: var(--ctp-subtext1)

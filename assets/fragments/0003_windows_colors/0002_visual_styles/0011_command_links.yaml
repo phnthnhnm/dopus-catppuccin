@@ -1,0 +1,54 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom command links
+        vs_commandlink_custom: yes
+    
+    named_colors:
+      "@attributes":
+
+        # - - - Custom command links - - -
+
+        # Text
+        vs_commandlink_text: var(--ctp-text)
+
+        # Text - Hot
+        vs_commandlink_text_hot: var(--ctp-text)
+
+        # Text - Pressed
+        vs_commandlink_text_pressed: var(--ctp-accent-color)
+
+        # Text - Disabled
+        vs_commandlink_text_disabled: var(--ctp-overlay2)
+
+
+        # Background - Hot
+        vs_commandlink_background_hot: var(--ctp-surface2, 100)
+
+        # Background - Pressed
+        vs_commandlink_background_pressed: var(--ctp-surface2, 140)
+
+
+        # Border - Hot
+        vs_commandlink_border_hot: var(--ctp-surface2, 140)
+
+        # Border - Pressed
+        vs_commandlink_border_pressed: var(--ctp-surface2, 180)
+
+        # Border - Active
+        vs_commandlink_border_default: var(--ctp-surface2, 140)
+
+
+        # Glyph
+        vs_commandlink_glyph: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_commandlink_glyph_hot: var(--ctp-text)
+
+        # Glyph - Pressed
+        vs_commandlink_glyph_pressed: var(--ctp-accent-color)
+
+        # Glyph - Disabled
+        vs_commandlink_glyph_disabled: var(--ctp-accent-overlay2)

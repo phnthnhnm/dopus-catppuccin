@@ -1,0 +1,22 @@
+opus_theme_nc:
+  "@attributes":
+    name: Catppuccin <Flavor>
+    author: tsukasa
+    url: https://github.com/tsukasa/dopus-catppuccin
+    blending: yes
+    color_set_bank: <automatically set>
+    colors: yes
+    desc: Soothing pastel theme for the high-spirited!
+    fonts: no
+    images: no
+    syscols: yes
+    min_version_beta: 0
+    min_version_major: 13
+    min_version_minor: 0
+    opus_version_beta: 0
+    opus_version_major: 13
+    opus_version_minor: 1
+
+  colors:
+    "@attributes":
+      version: 13

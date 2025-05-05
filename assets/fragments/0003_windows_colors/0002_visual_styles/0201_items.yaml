@@ -1,0 +1,38 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Item text - - -
+
+        # Normal
+        vs_treeview_explorer_text: var(--ctp-text)
+
+        # Hot
+        vs_treeview_explorer_text_hot: var(--ctp-text)
+
+        # Selected
+        vs_treeview_explorer_text_selected: var(--ctp-text)
+
+
+
+        # - - - Item backgrounds - - -
+
+        # Hot
+        vs_treeview_explorer_back_hot: var(--ctp-overlay2, 80)
+
+        # Selected
+        vs_treeview_explorer_back_selected: var(--ctp-overlay2, 60)
+
+        # Selected - No Focus
+        vs_treeview_explorer_back_selectednofocus: var(--ctp-overlay2, 40)
+
+        # Selected - Hot
+        vs_treeview_explorer_back_hotselected: var(--ctp-overlay2, 130)
+
+
+
+        # - - - Item frames - - -
+
+        # Selected - Hot
+        vs_treeview_explorer_frame_hotselected: var(--ctp-overlay2, 100)

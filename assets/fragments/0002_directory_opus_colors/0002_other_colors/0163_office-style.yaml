@@ -1,0 +1,51 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use legacy Office-style toolbars
+        office2003toolbars: no
+
+    named_colors:
+      "@attributes":
+
+        # - - - Use legacy Office-style toolbars - - -
+
+        # Gradient Left
+        officetoolbar_gradient_left: var(--ctp-mantle)
+
+        # Gradient Right
+        officetoolbar_gradient_right: var(--ctp-base)
+
+
+
+        # Base color
+        officetoolbar_base: var(--ctp-base)
+
+
+        # Frame
+        officetoolbar_frame: var(--ctp-surface2)
+
+        # Hot
+        officetoolbar_hot: var(--ctp-surface1)
+
+        # Hot 2
+        officetoolbar_hot_1: var(--ctp-surface1)
+
+        # Hot 3
+        officetoolbar_hot_2: var(--ctp-surface0)
+
+        # Pushed
+        officetoolbar_pushed_1: var(--ctp-surface0)
+
+        # Pushed 2
+        officetoolbar_pushed_2: var(--ctp-base)
+
+        # Checkmark
+        officetoolbar_tick: var(--ctp-surface0)
+
+        # Checkmark - Hot
+        officetoolbar_tick_hot: var(--ctp-surface1)
+
+        # Grip
+        officetoolbar_grip: var(--ctp-surface0)

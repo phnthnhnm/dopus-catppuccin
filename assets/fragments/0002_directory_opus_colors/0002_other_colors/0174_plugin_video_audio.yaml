@@ -1,0 +1,47 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Toolbar - - -
+
+        # Background
+        movie_toolbar_background: var(--ctp-base)
+
+        # Frame
+        movie_toolbar_frame: var(--ctp-surface0)
+
+        # Glyphs
+        movie_toolbar_glyph: var(--ctp-text)
+
+        # Mute X
+        movie_toolbar_mute_x: var(--ctp-red)
+
+
+
+        # - - - Seek bar and volume - - -
+
+        # Text
+        movie_seekbar_text: var(--ctp-text)
+
+        # Text - Filled
+        movie_seekbar_text_filled: var(--ctp-subtext1)
+
+        # Background
+        movie_seekbar_background: var(--ctp-crust)
+
+        # Frame
+        movie_seekbar_frame: var(--ctp-surface0)
+
+        # Fill
+        movie_seekbar_fill: var(--ctp-overlay1)
+
+        # Fill - Muted
+        movie_seekbar_fill_muted: var(--ctp-red)
+
+
+
+        # - - - Audio - - -
+
+        # Background
+        movie_audio_background: var(--ctp-mantle)

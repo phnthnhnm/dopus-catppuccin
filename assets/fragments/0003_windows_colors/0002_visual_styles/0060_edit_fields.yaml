@@ -1,0 +1,28 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom edit fields
+        vs_edit_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom edit fields - - -
+
+        # Border
+        vs_edit_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_edit_border_hot: var(--ctp-surface1)
+
+        # Border - Focused
+        vs_edit_border_focused: var(--ctp-surface2)
+
+        # Border - Disabled
+        vs_edit_border_disabled: var(--ctp-surface0)
+
+
+        # Cue banner
+        vs_edit_cue_banner: var(--ctp-overlay0)

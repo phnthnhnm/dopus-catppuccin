@@ -1,0 +1,50 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Cloud status icons - - -
+
+        # Online - Fill
+        cloudsync_cloud2: var(--ctp-base)
+
+        # Online - Outline
+        cloudsync_cloud1: var(--ctp-blue)
+
+
+
+        # Local - Glyph
+        cloudsync_avail3: var(--ctp-green)
+
+        # Local - Fill
+        cloudsync_avail2: var(--ctp-base)
+
+        # Local - Outline
+        cloudsync_avail1: var(--ctp-green)
+
+
+
+        # Pinned - Glyph
+        cloudsync_always3: var(--ctp-crust)
+
+        # Pinned - Fill
+        cloudsync_always2: var(--ctp-green)
+
+        # Pinned - Outline
+        cloudsync_always1: var(--ctp-green)
+
+
+
+        # Syncing
+        cloudsync_syncing: var(--ctp-peach)
+
+
+
+        # Error - Glyph
+        cloudsync_error3: var(--ctp-crust)
+
+        # Error - Fill
+        cloudsync_error2: var(--ctp-red)
+
+        # Error - Outline
+        cloudsync_error1: var(--ctp-red)

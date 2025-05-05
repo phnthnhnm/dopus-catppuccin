@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Plugin - Errors - - -
+
+        # Text
+        pluginerror_text: var(--ctp-red)
+
+        # Background
+        pluginerror_background: var(--ctp-mantle)

@@ -1,0 +1,48 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Miscellaneous - - -
+
+        # Heading
+        boldheading: var(--ctp-text)
+
+        
+        # Hyperlink
+        url_normal: var(--ctp-blue)
+
+        # Hyperlink - Clicked
+        url_clicked: var(--ctp-mauve)
+
+
+        # OK text
+        ok_text: var(--ctp-green)
+        
+        # Error text
+        error_text: var(--ctp-red)
+
+
+        # Pop-up shadow
+        popup_shadow: var(--ctp-base)
+
+
+        # Transparency 1
+        transparency_1: var(--ctp-mantle)
+
+        # Transparency 2
+        transparency_2: var(--ctp-crust)
+
+
+        # Busy spinner
+        busy_spinner: var(--ctp-accent-color)
+
+
+
+        # - - - Folder highlight - - -
+
+        # Frame
+        filehighlight_overlay_frame: var(--ctp-overlay0, 33)
+
+        # Background
+        filehighlight_overlay_back: var(--ctp-mantle, 33)

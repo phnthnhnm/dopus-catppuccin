@@ -1,0 +1,43 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # System files
+        fd_colors_system: yes
+
+        # System folders
+        fd_colors_system_folder: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - System files - - -
+
+        # Unselected text
+        fd_system_unsel_text: var(--ctp-red)
+
+        # Unselected background
+        fd_system_unsel_background: none
+
+        # Selected text
+        fd_system_sel_text: var(--ctp-mantle)
+
+        # Selected background
+        fd_system_sel_background: var(--ctp-red)
+
+
+
+        # - - - System folders - - -
+
+        # Unselected text
+        fd_system_folder_unsel_text: var(--ctp-red)
+
+        # Unselected background
+        fd_system_folder_unsel_background: none
+
+        # Selected text
+        fd_system_folder_sel_text: var(--ctp-mantle)
+
+        # Selected background
+        fd_system_folder_sel_background: var(--ctp-red)

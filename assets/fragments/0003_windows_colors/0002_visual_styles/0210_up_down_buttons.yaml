@@ -1,0 +1,54 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom up/down buttons
+
+    named_colors:
+      "@attributes":
+
+        # Note:
+        # Can be tested in the theme tester
+        # Using Date/Timer Pickers, it's the
+        # up/down button on the time picker.
+
+        # - - - Custom up/down buttons - - -
+
+        # Glyph
+        vs_updown_glyph: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_updown_glyph_hot: var(--ctp-crust)
+
+        # Glyph - Pressed
+        vs_updown_glyph_pressed: var(--ctp-text)
+
+        # Glyph - Disabled
+        vs_updown_glyph_disabled: var(--ctp-overlay0)
+
+
+        # Background
+        vs_updown_button: var(--ctp-base)
+
+        # Background - Hot
+        vs_updown_button_hot: var(--ctp-overlay2)
+
+        # Background - Pressed
+        vs_updown_button_pressed: var(--ctp-overlay2)
+
+        # Background - Disabled
+        vs_updown_button_disabled: var(--ctp-surface0)
+
+
+        # Border
+        vs_updown_button_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_updown_button_border_hot: var(--ctp-surface0)
+
+        # Border - Selected
+        vs_updown_button_border_pressed: var(--ctp-surface0)
+
+        # Border - Disabled
+        vs_updown_button_border_disabled: var(--ctp-surface0)

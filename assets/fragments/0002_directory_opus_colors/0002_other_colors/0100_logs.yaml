@@ -1,0 +1,39 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Logs - - -
+
+        # Text
+        log_text: var(--ctp-text)
+
+        # Background
+        log_background: var(--ctp-crust)
+
+
+        # Prefix - Text
+        log_line_prefix_text: var(--ctp-crust)
+
+        # Prefix - Background
+        log_line_prefix_background: var(--ctp-lavender)
+
+
+        # Error
+        log_error: var(--ctp-red)
+
+
+
+        # - - - FTP log - - -
+
+        # Connection
+        log_ftp_connection: var(--ctp-blue)
+
+        # Data in
+        log_ftp_data_in: var(--ctp-green)
+
+        # Data out
+        log_ftp_data_out: var(--ctp-peach)
+
+        # Data discard
+        log_ftp_data_discard: var(--ctp-blue)

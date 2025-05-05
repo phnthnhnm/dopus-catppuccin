@@ -1,0 +1,42 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+        # Queued files
+        fd_ghost_files_colors: yes
+
+        # Queued folders
+        fd_ghost_dirs_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Queued files - - -
+
+        # Unselected text
+        fd_ghost_files_unsel_text: var(--ctp-overlay1)
+
+        # Unselected background
+        fd_ghost_files_unsel_back: none
+
+        # Selected text
+        fd_ghost_files_sel_text: var(--ctp-mantle)
+
+        # Selected background
+        fd_ghost_files_sel_back: var(--ctp-green)
+
+
+
+        # - - - Queued folders - - -
+
+        # Unselected text
+        fd_ghost_dirs_unsel_text: var(--ctp-sky)
+
+        # Unselected background
+        fd_ghost_dirs_unsel_back: none
+
+        # Selected text
+        fd_ghost_dirs_sel_text: var(--ctp-overlay1)
+
+        # Selected background
+        fd_ghost_dirs_sel_back: var(--ctp-sapphire)

@@ -1,0 +1,48 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Pie charts - - -
+
+        # Slice 1
+        piechart_00: var(--ctp-green)
+
+        # Slice 2
+        piechart_01: var(--ctp-rosewater)
+
+        # Slice 3
+        piechart_02: var(--ctp-teal)
+
+        # Slice 4
+        piechart_03: var(--ctp-pink)
+
+        # Slice 5
+        piechart_04: var(--ctp-peach)
+
+        # Slice 6
+        piechart_05: var(--ctp-sky)
+
+        # Slice 7
+        piechart_06: var(--ctp-red)
+
+        # Slice 8
+        piechart_07: var(--ctp-mauve)
+
+        # Slice 9
+        piechart_08: var(--ctp-maroon)
+
+        # Slice 10
+        piechart_09: var(--ctp-yellow)
+
+        # Slice 11
+        piechart_10: var(--ctp-lavender)
+
+        # Slice 12
+        piechart_11: var(--ctp-sapphire)
+
+        # Aggregation
+        piechart_aggregate: var(--ctp-overlay0)
+
+        # Border
+        piechart_border: var(--ctp-overlay2)

@@ -1,0 +1,44 @@
+opus_theme_nc:
+  colors:
+    system_colors:
+      "@attributes":
+        
+        # - - - Controls - - -
+
+        # Text
+        BTNTEXT: var(--ctp-text)
+
+        # Text - Disabled
+        GRAYTEXT: var(--ctp-overlay1)
+
+        # Text - Hot/Link
+        HOTLIGHT: var(--ctp-accent-color)
+
+        # Background
+        BTNFACE: var(--ctp-base)
+
+
+
+        # - - - Frames - - -
+
+        # Highlight
+        BTNHIGHLIGHT: var(--ctp-surface0)
+
+        # Shadow
+        BTNSHADOW: var(--ctp-surface1)
+
+        # Light highlight
+        3DLIGHT: var(--ctp-surface2)
+
+        # Dark shadow
+        3DDKSHADOW: var(--ctp-mantle)
+
+
+
+        # - - - Selected items - - -
+        
+        # Text
+        HIGHLIGHTTEXT: var(--ctp-text)
+
+        # Background
+        HIGHLIGHT: var(--ctp-surface2)

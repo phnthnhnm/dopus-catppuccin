@@ -1,0 +1,57 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Thumbnails mode
+        thumb_border_thumbnails: yes
+
+        # Tiles mode
+        thumb_border_tiles: no
+
+        # Details mode
+        thumb_border_details: yes
+
+        # Power mode
+        thumb_border_power: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Thumbnails mode - - -
+
+        # Border
+        thumb_fill_thumbs: var(--ctp-crust)
+
+        # Shadow
+        thumb_shadow_thumbs: var(--ctp-overlay2)
+
+
+
+        # - - - Tiles mode - - -
+
+        # Border
+        thumb_fill_tiles: var(--ctp-crust)
+
+        # Shadow
+        thumb_shadow_tiles: var(--ctp-overlay2)
+
+
+
+        # - - - Details mode - - -
+
+        # Border
+        thumb_fill_details: var(--ctp-crust)
+
+        # Shadow
+        thumb_shadow_details: var(--ctp-overlay2)
+
+
+
+        # - - - Power mode - - -
+
+        # Border
+        thumb_fill_power: var(--ctp-crust)
+
+        # Shadow
+        thumb_shadow_power: var(--ctp-overlay2)

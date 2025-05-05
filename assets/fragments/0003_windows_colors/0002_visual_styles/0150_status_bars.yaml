@@ -1,0 +1,27 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom status bars
+        vs_status_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom status bars - - -
+
+        # Text
+        vs_status_text: var(--ctp-text)
+
+        # Background
+        vs_status_background: var(--ctp-crust)
+
+        # Frame
+        vs_status_background_frame: var(--ctp-surface0)
+
+        # Separators
+        vs_status_separator: var(--ctp-surface0)
+
+        # Resizing grip
+        vs_status_grip: var(--ctp-surface0)

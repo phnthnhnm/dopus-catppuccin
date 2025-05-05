@@ -1,0 +1,35 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Picture frame
+        preview_pictureframe: yes
+
+        # Automatic background
+        preview_autobg: no
+
+    named_colors:
+      "@attributes":
+
+        # - - - Picture frame - - -
+
+        # Border
+        preview_frame_fill: var(--ctp-text)
+
+        # Shadow
+        preview_frame_shadow: var(--ctp-overlay0)
+
+
+
+        # - - - Background - - -
+
+        # Color
+        preview_back_image: var(--ctp-crust)
+
+
+
+        # - - - Empty viewer pane - - -
+
+        # Color
+        preview_back_empty: var(--ctp-base)

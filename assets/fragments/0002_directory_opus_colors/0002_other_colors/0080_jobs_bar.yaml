@@ -1,0 +1,40 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use text color on job buttons
+        jobsbar_use_text_color_on_buttons: yes
+
+        # Use visual styles
+        jobsbar_progress_custom_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Jobs bar - - -
+
+        # Text
+        jobsbar_text: var(--ctp-text)
+
+        # Background
+        jobsbar_back: var(--ctp-crust)
+
+
+
+        # - - - Jobs bar - Progress bars - - -
+
+        # Normal
+        jobsbar_progress_normal: var(--ctp-green, 25)
+
+        # Error
+        jobsbar_progress_error: var(--ctp-red, 25)
+
+        # Paused
+        jobsbar_progress_paused: var(--ctp-yellow, 25)
+
+        # Partial
+        jobsbar_progress_partial: var(--ctp-blue, 25)
+
+        # Pulse
+        jobsbar_progress_pulse: var(--ctp-surface0, 25)

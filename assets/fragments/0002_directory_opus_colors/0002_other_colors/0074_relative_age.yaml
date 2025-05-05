@@ -1,0 +1,28 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Relative age graphs - Files - - -
+
+        # Filled bar
+        graph_rel_date_file: var(--ctp-yellow)
+
+        # Frame
+        graph_rel_date_frame_file: var(--ctp-surface0)
+
+        # Background
+        graph_rel_date_back_file: var(--ctp-crust)
+
+
+
+        # - - - Relative age graphs - Folders - - -
+
+        # Filled bar
+        graph_rel_date_folder: var(--ctp-mauve)
+
+        # Frame
+        graph_rel_date_frame_folder: var(--ctp-surface0)
+
+        # Background
+        graph_rel_date_back_folder: var(--ctp-crust)

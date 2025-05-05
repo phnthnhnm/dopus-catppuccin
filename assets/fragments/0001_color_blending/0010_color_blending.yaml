@@ -1,0 +1,58 @@
+opus_theme_nc:
+  colors:
+
+    named_dwords:
+      "@attributes":
+
+        # Blend file background with background % opacity
+        file_blend_amount: 75
+
+        # Drag image opacity %
+        drag_blend_amount: 50
+
+        # Background graph opacity %
+        background_graph_blend_amount: 40
+        
+        # Inactive file display %
+        no_focus_blend_amount: 75
+
+        # Inactive folder tree %
+        no_focus_tree_blend_amount: 75
+
+        # Hot %
+        faux_theme_opacity_hot: 47
+        
+        # Selected %
+        faux_theme_opacity_sel: 70
+
+        # Selected & hot/focused %
+        faux_theme_opacity_hotselfoc: 82
+
+
+    named_color_bools:
+      "@attributes":
+
+        # Blend file background colors with background
+        fd_blend_file_background: yes
+
+        # Blend row and column background colors
+        fd_blend_rows_colunns: yes
+
+        # Blend selected items with column colors
+        fd_blend_sel_items: no
+
+        # Use visual styles to draw items
+        fd_visualstyles_selitems: yes
+
+        # Selection rectangles overlap
+        fd_visualstyles_selitems_overlap: yes
+
+        # Visual styles override file selection colors
+        fd_visualstyles_selitems_partial: yes
+
+
+        # Inactive file display
+        fd_fade_nofocus: yes
+
+        # Inactive folder tree
+        foldertree_fade_nofocus: yes

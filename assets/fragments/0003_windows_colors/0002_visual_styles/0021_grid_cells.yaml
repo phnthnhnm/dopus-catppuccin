@@ -1,0 +1,38 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Calendar cell backgrounds - - -
+
+        # Hot
+        vs_monthcal_grid_hot: var(--ctp-overlay0, 150)
+
+        # Selected
+        vs_monthcal_grid_selected: var(--ctp-accent-color, 100)
+
+        # Selected - Hot
+        vs_monthcal_grid_hot_selected: var(--ctp-accent-color, 150)
+
+        # Selected - No Focus
+        vs_monthcal_grid_selected_notfocused: var(--ctp-accent-color, 60)
+
+
+        # Today
+        vs_monthcal_grid_today: var(--ctp-surface2, 0)
+
+        # Today - Selected
+        vs_monthcal_grid_today_hotselected: var(--ctp-surface2, 0)
+
+
+
+        # - - - Calendar cell frames - - -
+
+        # Selected - Hot
+        vs_monthcal_grid_frame_hotselected: var(--ctp-text, 220)
+
+        # Today
+        vs_monthcal_grid_frame_today: var(--ctp-accent-color)
+
+        # Today - Selected
+        vs_monthcal_grid_frame_today_hotselected: var(--ctp-surface0)

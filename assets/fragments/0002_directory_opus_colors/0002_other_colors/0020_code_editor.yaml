@@ -1,0 +1,53 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Syntax coloring - - -
+
+        # Keywords
+        codeeditor_keyword: var(--ctp-mauve)
+
+        # Special keywords
+        codeeditor_special: var(--ctp-red)
+
+        # Properties
+        codeeditor_property: var(--ctp-blue)
+
+        # Numeric constants
+        codeeditor_number: var(--ctp-peach)
+
+        # String constants
+        codeeditor_stringconstant: var(--ctp-green)
+
+        # Delimiters
+        codeeditor_delimiter: var(--ctp-overlay2)
+
+        # Comments
+        codeeditor_comment: var(--ctp-overlay2)
+
+
+
+        # - - - Highlighting - - -
+
+        # Active line
+        codeeditor_linehighlight: none
+
+        # Matching brackets
+        codeeditor_bracketmatch: var(--ctp-rosewater)
+
+
+
+        # - - - Sidebar - - -
+
+        # Margin
+        codeeditor_margin: var(--ctp-mantle)
+
+        # Frame
+        codeeditor_margin_edge: var(--ctp-crust)
+
+        # Bookmarks
+        codeeditor_bookmark: var(--ctp-sky)
+
+        # Line Numbers
+        codeeditor_linenumbers: var(--ctp-overlay1)

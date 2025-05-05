@@ -1,0 +1,37 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Encrypted files
+        fd_colors_encrypted: yes
+
+        # Encrypted folders
+        fd_colors_encrypted_folder: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Encrypted files - - -
+        
+        # Unselected text
+        fd_encrypted_unsel_text: var(--ctp-green)
+
+        # Selected text
+        fd_encrypted_sel_text: var(--ctp-teal)
+
+        # Unselected background
+        fd_encrypted_sel_background: none
+
+
+
+        # - - - Encrypted folders - - -
+        
+        # Unselected text
+        fd_encrypted_folder_unsel_text: var(--ctp-green)
+
+        # Selected text
+        fd_encrypted_folder_sel_text: var(--ctp-teal)
+
+        # Unselected background
+        fd_encrypted_folder_sel_background: none

@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - WAV file thumbnails - - -
+
+        # Waveform
+        wavplugin_waveform: var(--ctp-green)
+
+        # Background
+        wavplugin_background: var(--ctp-mantle)

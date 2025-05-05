@@ -1,0 +1,46 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        opus_menus_use_themes: no
+
+    named_colors:
+      "@attributes":
+
+        # - - - Toolbar menus - - -
+
+        # Text
+        opusmenu_text: var(--ctp-text)
+
+        # Background
+        opusmenu_back: var(--ctp-base)
+
+
+        # Heading - Text
+        opusmenu_header_text: var(--ctp-overlay2)
+
+        # Heading - Background
+        opusmenu_header_back: var(--ctp-crust)
+
+
+        # Selected
+        opusmenu_selected: var(--ctp-surface1)
+
+        # Toggled
+        opusmenu_toggled: var(--ctp-surface0)
+
+
+        # Separator - Highlight
+        opusmenu_separator_highlight: var(--ctp-text)
+
+        # Separator - Shadow
+        opusmenu_separator_shadow: var(--ctp-crust)
+
+
+        # Menu frame outer
+        opusmenu_frame_outer: var(--ctp-surface0)
+
+        # Menu frame inner
+        opusmenu_frame_inner: var(--ctp-base)

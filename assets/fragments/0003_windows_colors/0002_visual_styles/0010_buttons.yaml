@@ -1,0 +1,53 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom buttons
+        vs_button_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom buttons - - -
+
+        # Text
+        vs_button_text: var(--ctp-text)
+
+        # Text - Hot
+        vs_button_text_hot: var(--ctp-overlay2)
+
+        # Text - Pressed
+        vs_button_text_pressed: var(--ctp-overlay1)
+
+        # Text - Disabled
+        vs_button_text_disabled: var(--ctp-overlay0)
+
+
+        # Background
+        vs_button_background: var(--ctp-base)
+
+        # Background - Hot
+        vs_button_background_hot: var(--ctp-surface0)
+
+        # Background - Pressed
+        vs_button_background_pressed: var(--ctp-surface1)
+
+        # Background - Disabled
+        vs_button_background_disabled: var(--ctp-mantle)
+
+
+        # Border
+        vs_button_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_button_border_hot: var(--ctp-surface2)
+
+        # Border - Pressed
+        vs_button_border_pressed: var(--ctp-overlay0)
+
+        # Border - Disabled
+        vs_button_border_disabled: var(--ctp-surface0)
+
+        # Border - Active
+        vs_button_border_default: var(--ctp-overlay2)

@@ -1,0 +1,48 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom headers
+        vs_header_custom: yes
+
+        # Add missing bottom edge
+        vs_header_add_missing_edge: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom headers - - -
+
+        # Text
+        vs_header_text: var(--ctp-text)
+
+
+        # Background
+        vs_header_background: var(--ctp-base)
+
+        # Background - Hot
+        vs_header_background_hot: var(--ctp-surface0)
+
+        # Background - Pressed
+        vs_header_background_pressed: var(--ctp-surface1)
+
+
+        # Border - Sides
+        vs_header_border_side: var(--ctp-surface0)
+
+        # Border - Bottom
+        vs_header_border_bottom: var(--ctp-surface0)
+
+        # Border - Inner
+        vs_header_border_inner: none
+
+        # Glyph
+        vs_header_other_glyphs: var(--ctp-accent-color)
+
+
+
+        # - - - Add missing bottom edge - - -
+
+        # Edge
+        vs_header_missing_edge: var(--ctp-surface0)

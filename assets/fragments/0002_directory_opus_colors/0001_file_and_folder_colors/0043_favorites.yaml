@@ -1,0 +1,19 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Favorite folders
+        fd_colors_favorite: no
+
+    named_colors:
+      "@attributes":
+        
+        # Unselected text
+        fd_favorite_unsel_text: var(--ctp-blue)
+
+        # Selected text
+        fd_favorite_sel_text: var(--ctp-sapphire)
+
+        # Selected background
+        fd_favorite_sel_background: none

@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    system_colors:
+      "@attributes":
+        
+        # - - - Tooltips - - -
+
+        # Text
+        INFOTEXT: var(--ctp-text)
+
+        # Background
+        INFOBK: var(--ctp-mantle)

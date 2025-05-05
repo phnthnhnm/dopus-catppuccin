@@ -1,0 +1,59 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom menus (always)
+        vs_menu_custom_always: yes
+        
+        # Custom if system theme is bad (Windows 11)
+        vs_menu_custom_if_bad_os: yes
+      
+    named_colors:
+      "@attributes":
+
+        # - - - Custom menus - - -
+
+        # Background
+        vs_menu_popup_background: var(--ctp-base)
+
+        # Frame
+        vs_menu_popup_frame: var(--ctp-surface0)
+
+        # Separators
+        vs_menu_popup_separator: var(--ctp-surface2)
+
+
+
+        # - - - Enabled items - - -
+
+        # Text
+        vs_menu_popup_text: var(--ctp-text)
+
+        # Text - Hot
+        vs_menu_popup_text_hot: var(--ctp-text)
+
+        # Background - Hot
+        vs_menu_popup_background_hot: var(--ctp-overlay0, 160)
+
+        # Glyph
+        vs_menu_glyph: var(--text)
+
+        # Glyph - Background
+        vs_menu_glyph_background: var(--ctp-overlay0, 120)
+
+
+
+        # - - - Disabled items - - -
+
+        # Text
+        vs_menu_popup_text_disabled: var(--ctp-surface2)
+
+        # Background - Hot
+        vs_menu_popup_background_hot_disabled: var(--ctp-surface2, 100)
+
+        # Glyph
+        vs_menu_glyph_disabled: var(--ctp-surface2)
+
+        # Glyph - Background
+        vs_menu_glyph_background_disabled: var(--ctp-overlay0, 50)

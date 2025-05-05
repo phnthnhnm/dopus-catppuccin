@@ -1,0 +1,25 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom groupboxes
+        vs_groupbox_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom groupboxes - - -
+
+        # Text
+        vs_groupbox_text: var(--ctp-text)
+
+        # Text - Disabled
+        vs_groupbox_text_disabled: var(--ctp-overlay0)
+
+
+        # Border
+        vs_groupbox_border: var(--ctp-surface0)
+
+        # Border - Disabled
+        vs_groupbox_border_disabled: var(--ctp-surface0)

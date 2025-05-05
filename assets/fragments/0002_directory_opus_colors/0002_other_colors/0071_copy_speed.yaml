@@ -1,0 +1,47 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Copy speed graphs - - -
+
+        # Background
+        graph_speed_back: var(--ctp-crust)
+
+        # Frame
+        graph_speed_border: var(--ctp-overlay0)
+
+        # Scale lines
+        graph_speed_scale: var(--surface0)
+
+        # Scale labels
+        graph_speed_scale_text: var(--ctp-surface2)
+
+        # Speed lines
+        graph_speed_lines: var(--ctp-sky)
+
+
+
+        # - - - Graph lines - - -
+
+        # Normal
+        graph_speed_line_normal: var(--ctp-green)
+
+        # Error
+        graph_speed_line_error: var(--ctp-red)
+
+        # Paused
+        graph_speed_line_pause: var(--ctp-yellow)
+
+
+
+        # - - - Graph fills - - -
+
+        # Normal
+        graph_speed_fill_normal: var(--ctp-green, 100)
+
+        # Error
+        graph_speed_fill_error: var(--ctp-red, 100)
+
+        # Paused
+        graph_speed_fill_pause: var(--ctp-yellow, 100)

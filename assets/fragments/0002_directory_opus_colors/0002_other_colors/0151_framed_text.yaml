@@ -1,0 +1,15 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Status bar framed text - - -
+
+        # Text
+        opusstatusbar_framed_text: var(--ctp-crust)
+
+        # Background
+        opusstatusbar_framed_background: var(--ctp-accent-color)
+
+        # Border
+        opusstatusbar_framed_border: var(--ctp-overlay0)

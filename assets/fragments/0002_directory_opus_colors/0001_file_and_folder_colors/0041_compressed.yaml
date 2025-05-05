@@ -1,0 +1,37 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Compressed files
+        fd_colors_compressed: yes
+
+        # Compressed folders
+        fd_colors_compressed_folder: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Compressed files - - -
+        
+        # Unselected text
+        fd_compressed_unsel_text: var(--ctp-red)
+
+        # Selected text
+        fd_compressed_sel_text: var(--ctp-pink)
+
+        # Selected background
+        fd_compressed_sel_background: none
+
+
+
+        # - - - Compressed folders - - -
+
+        # Unselected text
+        fd_compressed_folder_unsel_text: var(--ctp-red)
+
+        # Selected text
+        fd_compressed_folder_sel_text: var(--ctp-pink)
+
+        # Selected background
+        fd_compressed_folder_sel_background: none

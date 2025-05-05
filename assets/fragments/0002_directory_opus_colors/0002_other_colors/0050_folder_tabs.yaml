@@ -1,0 +1,42 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Locked edge
+        foldertab_locked_edge: yes
+
+        # Active tab shadow
+        foldertabs_active_shadow: yes
+
+    named_dwords:
+      "@attributes":
+        
+        # Tab style
+        rounded_tabs: 1
+
+    named_colors:
+      "@attributes":
+
+        # - - - Folder tabs - - -
+
+        # Text
+        foldertab_unsel_text: var(--ctp-overlay0)
+
+        # Background
+        foldertab_unsel_background: var(--ctp-mantle)
+
+        # Hot background
+        foldertab_hot_background: var(--ctp-base)
+
+        # Selected text
+        foldertab_sel_text: var(--ctp-text)
+
+        # Selected background
+        foldertab_sel_background: var(--ctp-base)
+
+        # Empty space
+        foldertab_empty_space: var(--ctp-crust)
+
+        # Locked edge color
+        foldertab_locked_edge: var(--ctp-maroon)

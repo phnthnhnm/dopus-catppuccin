@@ -1,0 +1,22 @@
+{
+  "name": "Catppuccin for Directory Opus",
+  "version": "0.0.1",
+  "description": "Soothing pastel theme for the high-spirited!",
+  "type": "module",
+  "main": "src/build.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tsukasa",
+  "homepage": "https://github.com/tsukasa/dopus-catppuccin",
+  "license": "MIT",
+  "dependencies": {
+    "@catppuccin/palette": "^1.7.1",
+    "archiver": "^7.0.1",
+    "chalk": "^5.4.1",
+    "js-yaml": "^4.1.0",
+    "jsdom": "^26.1.0"
+  }
+}

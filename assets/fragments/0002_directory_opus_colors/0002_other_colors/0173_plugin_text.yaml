@@ -1,0 +1,22 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Text display - - -
+
+        # Text
+        textviewer_text: var(--ctp-text)
+
+        # Background
+        textviewer_background: var(--ctp-mantle)
+
+
+
+        # - - - Hex display - - -
+
+        # Text
+        textviewer_hex_text: var(--ctp-text)
+
+        # Background
+        textviewer_hex_background: var(--ctp-mantle)

@@ -1,0 +1,31 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Toolbar fields - - -
+
+        # Background
+        toolbarfield_back_normal: var(--ctp-mantle, 255)
+
+        # Background - Hot
+        toolbarfield_back_hot: var(--ctp-mantle, 127)
+
+        # Background - Focused
+        toolbarfield_back_focused: var(--ctp-mantle, 255)
+
+        # Background - Disabled
+        toolbarfield_back_disabled: var(--ctp-mantle, 255)
+
+
+        # Border
+        toolbarfield_frame_normal: var(--ctp-surface0, 127)
+
+        # Border - Hot
+        toolbarfield_frame_hot: var(--ctp-surface1, 127)
+
+        # Border - Focused
+        toolbarfield_frame_focused: var(--ctp-accent-color, 191)
+
+        # Border - Disabled
+        toolbarfield_frame_disabled: var(--ctp-surface1, 82)

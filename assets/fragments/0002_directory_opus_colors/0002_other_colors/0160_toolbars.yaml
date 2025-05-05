@@ -1,0 +1,48 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        opus_toolbars_use_themes: no
+
+    named_colors:
+      "@attributes":
+
+        # - - - Toolbars - - -
+
+        # Text
+        opustoolbar_text: var(--ctp-text)
+
+        # Background
+        opustoolbar_background: var(--ctp-base)
+
+        
+        # Selected
+        opustoolbar_selected: var(--ctp-surface0)
+
+        # Toggled
+        opustoolbar_toggled: var(--ctp-surface1)
+
+
+        # Highlight
+        opustoolbar_separator_highlight: var(--ctp-surface0)
+
+        # Shadow
+        opustoolbar_separator_shadow: var(--ctp-base)
+
+
+
+        # - - - Window title - - -
+
+        # Active text
+        opustoolbar_title_active_text: var(--ctp-text)
+
+        # Active background
+        opustoolbar_title_active_background: var(--ctp-crust)
+
+        # Inactive text
+        opustoolbar_title_inactive_text: var(--ctp-overlay0)
+
+        # Inactive background
+        opustoolbar_title_inactive_background: var(--ctp-crust)

@@ -1,0 +1,32 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Group header text - - -
+
+        # Normal
+        vs_listview_header_text: var(--ctp-text)
+
+
+
+        # - - - Group header separator - - -
+
+        # Normal
+        vs_listview_header_separator: var(--ctp-text)
+
+        # Hot
+        vs_listview_header_separator_hot: var(--ctp-accent-color)
+
+
+
+        # - - - Arrow expanders - - -
+
+        # Collapsed
+        vs_listview_arrow: var(--ctp-text)
+
+        # Expanded
+        vs_listview_arrow_expanded: var(--ctp-text)
+
+        # Hot
+        vs_listview_arrow_hot: var(--ctp-accent-color)

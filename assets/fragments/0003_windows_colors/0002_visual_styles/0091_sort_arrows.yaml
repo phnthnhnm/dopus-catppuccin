@@ -1,0 +1,18 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom sort arrows
+        vs_header_sort_arrows_custom: yes
+
+    named_colors:
+      "@attributes":
+        
+        # - - - Custom sort arrows - - -
+
+        # Sort arrows
+        vs_header_arrows: var(--ctp-text)
+
+        # Sort arrows - Pending
+        vs_header_arrows_dirty: var(--ctp-text)

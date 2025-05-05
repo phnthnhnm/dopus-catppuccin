@@ -1,0 +1,15 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+        # Text
+        fd_groupheader_text: var(--ctp-accent-color)
+
+        # Separator
+        fd_groupheader_separator: var(--ctp-subtext0)
+
+        # Glyph
+        fd_groupheader_glyph: var(--ctp-subtext0)
+
+        # Glyph - Hot
+        fd_groupheader_glyph_hot: var(--ctp-accent-color)

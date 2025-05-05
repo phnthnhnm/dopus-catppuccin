@@ -1,0 +1,43 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Toolbars - - -
+
+        # Text
+        vs_toolbar_text: var(--ctp-text)
+
+        # Text - Hot
+        vs_toolbar_text_hot: var(--ctp-text)
+
+        # Text - Pressed
+        vs_toolbar_text_pressed: var(--ctp-text)
+
+        # Text - Checked
+        vs_toolbar_text_checked: var(--ctp-text)
+
+        # Text - Checked + Hot
+        vs_toolbar_text_checked_hot: var(--ctp-text)
+
+        # Text - Disabled
+        vs_toolbar_text_disabled: var(--ctp-surface2)
+
+
+        # Glyph
+        vs_toolbar_glyph: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_toolbar_glyph_hot: var(--ctp-text)
+
+        # Glyph - Pressed
+        vs_toolbar_glyph_pressed: var(--ctp-text)
+
+        # Glyph - Checked
+        vs_toolbar_glyph_checked: var(--ctp-accent-color)
+
+        # Glyph - Checked + Hot
+        vs_toolbar_glyph_checked_hot: var(--ctp-accent-color)
+
+        # Glyph - Disabled
+        vs_toolbar_glyph_disabled: var(--ctp-surface2)

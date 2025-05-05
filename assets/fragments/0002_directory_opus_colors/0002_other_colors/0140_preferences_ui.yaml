@@ -1,0 +1,15 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Preferences UI - - -
+
+        # Search text
+        search_text: var(--ctp-red)
+
+        # Search overlay
+        search_overlay: var(--ctp-red)
+
+        # Highlight overlay
+        highlight_overlay: var(--ctp-green)

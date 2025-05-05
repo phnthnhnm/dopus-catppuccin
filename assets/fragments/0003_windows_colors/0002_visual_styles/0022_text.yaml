@@ -1,0 +1,27 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Calendar text - - -
+
+        # Normal
+        vs_monthcal_text: var(--ctp-text)
+
+        # Hot
+        vs_monthcal_text_hot: var(--ctp-text)
+
+        # Selected
+        vs_monthcal_text_selected: var(--ctp-text)
+
+        # Selected - Hot
+        vs_monthcal_text_hot_selected: var(--ctp-text)
+
+        # Today
+        vs_monthcal_text_today: var(--ctp-accent-color)
+
+        # Prior/next month
+        vs_monthcal_text_nonselmonth: var(--ctp-surface2)
+
+        # Prior/next month - Hot
+        vs_monthcal_text_nonselmonth_hot: var(--ctp-surface2)

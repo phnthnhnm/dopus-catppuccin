@@ -1,0 +1,26 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Folder expanders - - -
+
+        # Collapsed
+        fd_folderexpander: var(--ctp-accent-color)
+
+        # Expanded
+        fd_folderexpander_expanded: var(--ctp-accent-color)
+
+        # Hot
+        fd_folderexpander_hot: var(--ctp-text)
+
+
+
+        # Error
+        fd_folderexpander_error: var(--ctp-yellow)
+
+        # Error - Mark
+        fd_folderexpander_error_mark: var(--ctp-crust)
+
+        # Error - Outline
+        fd_folderexpander_error_outline: var(--ctp-overlay0)

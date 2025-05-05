@@ -1,0 +1,47 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom treeviews (always)
+        vs_treeview_custom: yes
+
+        # Custom if system theme is bad (Windows 11)
+        vs_treeview_custom_if_bad_os: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom treeviews - - -
+
+        # Background
+        vs_treeview_background: var(--ctp-base)
+
+        # Lines
+        vs_treeview_line: var(--ctp-overlay0)
+
+
+
+        # - - - Box expanders - - -
+
+        # Background
+        vs_treeview_box_fill: var(--ctp-surface0)
+
+        # Frame
+        vs_treeview_box_frame: var(--ctp-overlay0)
+
+        # Glyph
+        vs_treeview_box_glyph: var(--ctp-text)
+
+
+
+        # - - - Arrow expanders - - -
+
+        # Collapsed
+        vs_treeview_arrow: var(--ctp-overlay0)
+
+        # Expanded
+        vs_treeview_arrow_expanded: var(--ctp-text)
+
+        # Hot
+        vs_treeview_arrow_hot: var(--ctp-accent-color)

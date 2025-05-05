@@ -1,0 +1,45 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom trackbars
+        vs_trackbar_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # Notes:
+        # Can be found in the theme tester:
+        # Common Dialogs, GetSaveFileName, the "Change your view"
+        # dropdown in the upper left corner.
+
+        # - - - Custom trackbars - - -
+
+        # Background
+        vs_trackbar_track_fill: var(--ctp-surface2)
+
+        # Frame
+        vs_trackbar_track_frame: var(--ctp-overlay0)
+
+        # Tick
+        vs_trackbar_tick: var(--ctp-text)
+
+
+
+        # - - - Thumb - - -
+
+        # Normal
+        vs_trackbar_thumb_normal: var(--ctp-text)
+
+        # Hot
+        vs_trackbar_thumb_hot: var(--ctp-accent-color)
+
+        # Pressed
+        vs_trackbar_thumb_pressed: var(--accent-color)
+
+        # Focused
+        vs_trackbar_thumb_focused: var(--accent-color)
+
+        # Disabled
+        vs_trackbar_thumb_disabled: var(--ctp-overlay0)

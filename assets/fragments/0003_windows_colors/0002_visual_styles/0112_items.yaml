@@ -1,0 +1,32 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Item backgrounds - - -
+
+        # Hot
+        vs_listview_item_background_hot: var(--ctp-overlay2, 80)
+
+        # Selected
+        vs_listview_item_background_selected: var(--ctp-overlay2, 60)
+
+        # Selected - No focus
+        vs_listview_item_background_selectednotfocus: var(--ctp-overlay2, 40)
+
+        # Selected - Hot
+        vs_listview_item_background_hotselected: var(--ctp-overlay2, 130)
+
+
+
+        # - - - Item frames - - -
+
+        # Focus
+        vs_listview_item_frame_focus: var(--ctp-overlay2, 100)
+
+
+
+        # - - - Item text - - -
+
+        # Selected
+        vs_listview_item_text_selected: var(--ctp-overlay2)

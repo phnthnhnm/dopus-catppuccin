@@ -1,0 +1,22 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Primary sort column - - -
+
+        # Text
+        vs_header_text_sort: none
+
+        # Background
+        vs_header_background_sort: none
+
+
+
+        # - - - Frozen column - - -
+
+        # Text
+        vs_header_text_frozen: var(--ctp-blue)
+
+        # Background
+        vs_header_background_frozen: var(--ctp-surface0)

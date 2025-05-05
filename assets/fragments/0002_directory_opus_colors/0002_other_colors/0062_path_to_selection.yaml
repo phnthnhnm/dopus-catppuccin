@@ -1,0 +1,15 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Folder tree - Path to selection - - -
+
+        # Line
+        foldertree_pathtosel: var(--ctp-accent-color)
+
+        # Line - Inactive
+        foldertree_pathtosel_inactive: var(--ctp-overlay0)
+
+        # Shadow
+        foldertree_pathtosel_shadow: var(--ctp-crust)

@@ -1,0 +1,36 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom calendars
+        vs_monthcal_custom: yes
+      
+    named_colors:
+      "@attributes":
+
+        # - - - Custom calenders - - -
+
+        # Header/Footer
+        vs_monthcal_headerfooter: var(--ctp-base)
+
+        # Border
+        vs_monthcal_border: var(--ctp-surface0)
+
+        # Background
+        vs_monthcal_grid: var(--ctp-base)
+
+        # Separator
+        vs_monthcal_headerseparator: var(--ctp-surface2)
+
+        # Glyph
+        vs_monthcal_scroll: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_monthcal_scroll_hot: var(--ctp-accent-color)
+
+        # Glyph - Pressed
+        vs_monthcal_scroll_pressed: var(--ctp-text)
+
+        # Glyph - Disabled
+        vs_monthcal_scroll_disabled: var(--ctp-overlay0)

@@ -1,0 +1,54 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Page title - - -
+
+        # Text
+        prefs_header_text_active: var(--ctp-text)
+
+        # Background
+        prefs_header_fill_active: var(--ctp-surface1)
+
+        # Shadow
+        prefs_header_shadow_active: var(--ctp-crust)
+
+
+
+        # - - - Page title - Inactive - - -
+
+        # Text
+        prefs_header_text_inactive: var(--ctp-subtext0)
+
+        # Background
+        prefs_header_fill_inactive: var(--ctp-surface0)
+
+        # Shadow
+        prefs_header_shadow_inactive: var(--ctp-crust)
+
+
+
+        # - - - Page information - Active - - -
+
+        # Text
+        prefs_pageinfo_text_active: var(--ctp-subtext1)
+
+        # Hyperlink
+        prefs_pageinfo_link_active: var(--ctp-surface2)
+
+        # Background
+        prefs_pageinfo_fill_active: var(--ctp-base)
+
+
+
+        # - - - Page information - Inactive - - -
+
+        # Text
+        prefs_pageinfo_text_inactive: var(--ctp-overlay1)
+
+        # Hyperlink
+        prefs_pageinfo_link_inactive: var(--ctp-surface2)
+
+        # Background
+        prefs_pageinfo_fill_inactive: var(--ctp-crust)

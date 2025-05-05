@@ -1,0 +1,15 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - New job arrow - - -
+
+        # Background
+        jobsbar_arrow_main: var(--ctp-green, 140)
+
+        # Border - Outer
+        jobsbar_arrow_outer: var(--ctp-crust, 50)
+
+        # Border - Inner
+        jobsbar_arrow_inner: var(--ctp-green, 255)

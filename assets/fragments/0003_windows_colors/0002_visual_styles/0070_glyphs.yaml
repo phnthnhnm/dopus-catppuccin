@@ -1,0 +1,39 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom glyphs
+        vs_glyphs_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom glyphs - - -
+
+        # Glyph
+        vs_glyph_color: var(--ctp-text)
+
+
+        # Glyph - Disabled
+        vs_glyph_color_disabled: var(--ctp-overlay0)
+
+
+        # Glyph - Hot
+        vs_glyph_color_hot: var(--ctp-text)
+
+        # Border - Hot
+        vs_glyph_frame_hot: var(--ctp-accent-color, 167)
+
+        # Background - Hot
+        vs_glyph_background_hot: var(--ctp-accent-color, 66)
+
+
+        # Glyph - Pressed
+        vs_glyph_color_pressed: var(--ctp-text)
+
+        # Border - Pressed
+        vs_glyph_frame_pressed: var(--ctp-accent-color, 255)
+
+        # Background - Pressed
+        vs_glyph_background_pressed: var(--ctp-accent-color, 128)

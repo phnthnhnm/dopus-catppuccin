@@ -1,0 +1,18 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - File display icon - - -
+
+        # Source
+        lightbulb_source: var(--ctp-peach)
+
+        # Destination
+        lightbulb_dest: var(--ctp-red)
+
+        # Off
+        lightbulb_off: var(--ctp-base)
+
+        # Dual Lister
+        lightbulb_dual: var(--ctp-blue)

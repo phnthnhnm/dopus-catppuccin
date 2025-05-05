@@ -1,0 +1,28 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Files - - -
+        
+        # Unselected text
+        fd_files_unselected_text: var(--ctp-text)
+
+        # Selected text
+        fd_files_selected_text: var(--ctp-text)
+
+        # Selected background
+        fd_files_selected_background: none
+
+
+
+        # - - - Folders - - -
+
+        # Unselected text
+        fd_dirs_unselected_text: var(--ctp-text)
+
+        # Selected text
+        fd_dirs_selected_text: var(--ctp-text)
+
+        # Selected background
+        fd_dirs_selected_background: none

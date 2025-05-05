@@ -1,0 +1,28 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Folder thumbnails - - -
+
+        # Gradient Left
+        thumb_folder_fill1: var(--ctp-rosewater)
+
+        # Gradient Right
+        thumb_folder_fill2: var(--ctp-yellow)
+
+        # Behind
+        thumb_folder_top: var(--ctp-accent-color)
+
+        # Outline
+        thumb_folder_outline: var(--ctp-accent-color)
+
+
+
+        # - - - Thumbnail overlays - - -
+
+        # Aspect ratio
+        thumb_overlay_aspect: var(--ctp-maroon)
+
+        # Relative dimensions
+        thumb_overlay_relsize: var(--ctp-blue)

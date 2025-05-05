@@ -1,0 +1,28 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        opusstatusbar_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Status bar - - -
+
+        # Text
+        opusstatusbar_text: var(--ctp-text)
+
+        # Background
+        opusstatusbar_background: var(--ctp-base)
+
+        
+        # Frame
+        opusstatusbar_top: var(--ctp-surface0)
+
+        # Separators
+        opusstatusbar_separators: var(--ctp-surface0)
+
+        # Resizing grip
+        opusstatusbar_grip: var(--ctp-surface0)

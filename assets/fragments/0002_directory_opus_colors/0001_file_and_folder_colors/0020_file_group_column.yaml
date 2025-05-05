@@ -1,0 +1,32 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+        
+        # - - - File group column - - -
+        
+        # Text
+        fd_groupcolumn_source_text: var(--ctp-surface0)
+        
+        # Gradient Top
+        fd_groupcolumn_source_gradient_top: var(--ctp-accent-color)
+        
+        # Gradient Bottom
+        fd_groupcolumn_source_gradient_bottom: var(--ctp-accent-color)
+        
+        # Frame
+
+
+
+        # - - - File group column - Destination - - -
+        
+        # Text
+        fd_groupcolumn_dest_text: var(--ctp-text)
+
+        # Gradient Top
+        fd_groupcolumn_dest_gradient_top: var(--ctp-overlay0)
+
+        # Gradient Bottom
+        fd_groupcolumn_dest_gradient_bottom: var(--ctp-overlay0)
+
+        # Frame

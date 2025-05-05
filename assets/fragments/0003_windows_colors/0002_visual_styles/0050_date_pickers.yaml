@@ -1,0 +1,38 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom date pickers
+        vs_datepicker_custom: yes
+      
+    named_colors:
+      "@attributes":
+
+        # - - - Custom date pickers - - -
+
+        # Background
+        vs_datepicker_background: var(--ctp-crust)
+
+        # Background - Disabled
+        vs_datepicker_background_disabled: var(--ctp-surface0)
+
+
+        # Border
+        vs_datepicker_border_normal: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_datepicker_border_hot: var(--ctp-surface1)
+
+        # Border - Focused
+        vs_datepicker_border_focused: var(--ctp-surface2)
+
+        # Border - Disabled
+        vs_datepicker_border_disabled: var(--ctp-surface0)
+
+
+        # Background - Hot
+        vs_datepicker_button_background_hot: var(--ctp-surface0)
+
+        # Background - Pressed
+        vs_datepicker_button_background_pressed: var(--ctp-surface1)

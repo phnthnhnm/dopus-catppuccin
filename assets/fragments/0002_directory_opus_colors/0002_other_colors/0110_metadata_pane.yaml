@@ -1,0 +1,29 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Metadata pane - - -
+
+        # Text
+        metapane_text: var(--ctp-text)
+
+        # Group text
+        metapane_group_text: var(--ctp-text)
+
+        # Group separator
+        metapane_line: var(--ctp-text)
+
+
+        # Background
+        metapane_background: var(--ctp-base)
+
+        # Background striped
+        metapane_background_stripe: var(--ctp-mantle)
+
+
+        # Glyph
+        metapane_glyph: var(--ctp-text)
+
+        # Glyph - Hot
+        metapane_glyph_hot: var(--ctp-accent-color)

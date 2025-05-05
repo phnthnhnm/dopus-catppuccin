@@ -1,0 +1,53 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+        
+        # Matched text in file names
+        fd_colors_match: yes
+
+        # Matched text in folder names
+        fd_colors_match_folder: yes
+
+    named_colors:
+      "@attributes":
+        
+        # - - - Matched text in file names - - -
+
+        # Unselected text
+        fd_matched_unsel_text: var(--ctp-text)
+
+        # Unselected background
+        fd_matched_unsel_background: var(--ctp-accent-color)
+
+        # Selected text
+        fd_matched_sel_text: var(--ctp-text)
+
+        # Selected background
+        fd_matched_sel_background: var(--ctp-accent-color)
+
+
+
+        # - - - Matched text in folder names - - -
+
+        # Unselected text
+        fd_matched_folder_unsel_text: var(--ctp-text)
+
+        # Unselected background
+        fd_matched_folder_unsel_background: var(--ctp-accent-color)
+
+        # Selected text
+        fd_matched_folder_sel_text: var(--ctp-text)
+
+        # Selected background
+        fd_matched_folder_sel_background: var(--ctp-accent-color)
+
+
+
+        # - - - Common settings - - -
+
+        # Frame
+        fd_matched_text_frame: var(--ctp-text)
+
+        # Scrollbar
+        fd_matched_text_scrollbar: var(--ctp-green)

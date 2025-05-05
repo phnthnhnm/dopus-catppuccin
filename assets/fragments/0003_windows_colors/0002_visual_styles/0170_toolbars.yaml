@@ -1,0 +1,44 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom toolbars
+        vs_toolbar_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom toolbars - - -
+
+        # Background
+        vs_toolbar_background: var(--ctp-base)
+
+        # Background - Hot
+        vs_toolbar_background_hot: var(--ctp-surface0, 52)
+
+        # Background - Pressed
+        vs_toolbar_background_pressed: var(--ctp-surface1, 104)
+
+        # Background - Checked
+        vs_toolbar_background_checked: var(--ctp-overlay0, 80)
+
+        # Background - Checked + Hot
+        vs_toolbar_background_checked_hot: var(--ctp-overlay0, 80)
+
+
+        # Border - Hot
+        vs_toolbar_frame_hot: var(--ctp-overlay0, 104)
+
+        # Border - Pressed
+        vs_toolbar_frame_pressed: var(--ctp-overlay0, 208)
+
+        # Border - Checked
+        vs_toolbar_frame_checked: var(--ctp-overlay0, 255)
+
+        # Border - Checked + Hot
+        vs_toolbar_frame_checked_hot: var(--ctp-overlay0, 255)
+
+
+        # Separators
+        vs_toolbar_separators: var(--ctp-overlay0, 38)

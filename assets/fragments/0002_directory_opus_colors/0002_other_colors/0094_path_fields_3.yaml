@@ -1,0 +1,21 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Use visual styles
+        locationbar_progress_custom_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Path field progress bars - - -
+
+        # Normal
+        locationbar_progress_normal: var(--ctp-surface0)
+
+        # Partial
+        locationbar_progress_partial: var(--ctp-surface0)
+
+        # Pulse
+        locationbar_progress_pulse: var(--ctp-accent-color, 92)

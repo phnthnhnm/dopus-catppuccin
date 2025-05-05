@@ -1,0 +1,30 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Folder tabs - Destination
+        foldertabs_dest_colors: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Folder tabs - Destination - - -
+
+        # Text
+        foldertab_unsel_text_dest: var(--ctp-overlay0)
+
+        # Background
+        foldertab_unsel_background_dest: var(--ctp-mantle)
+
+        # Hot background
+        foldertab_hot_background_dest: var(--ctp-surface0)
+
+        # Selected text
+        foldertab_sel_text_dest: var(--ctp-overlay1)
+
+        # Selected background
+        foldertab_sel_background_dest: var(--ctp-base)
+
+        # Empty space
+        foldertab_empty_space_dest: var(--ctp-crust)

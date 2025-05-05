@@ -1,0 +1,32 @@
+opus_theme_nc:
+  colors:
+    system_colors:
+      "@attributes":
+
+        # - - - Window borders - - -
+
+        # Active text
+        CAPTIONTEXT: var(--ctp-crust)
+
+        # Active background
+        ACTIVECAPTION: var(--ctp-blue)
+
+        # Active gradient
+        GRADIENTACTIVECAPTION: var(--ctp-sky)
+
+
+        # Inactive text
+        INACTIVECAPTIONTEXT: var(--ctp-subtext0)
+
+        # Inactive background
+        INACTIVECAPTION: var(--ctp-surface0)
+
+        # Inactive gradient
+        GRADIENTINACTIVECAPTION: var(--ctp-surface1)
+
+
+        # Active border
+        ACTIVEBORDER: var(--ctp-accent-color)
+
+        # Inactive border
+        INACTIVEBORDER: var(--ctp-surface2)

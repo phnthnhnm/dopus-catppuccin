@@ -1,0 +1,26 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Pane borders - - -
+
+        # Text
+        panelnc_text: var(--ctp-text)
+
+        # Background
+        panelnc_background: var(--ctp-base)
+
+        
+        # Highlight
+        panelnc_border_highlight: var(--ctp-surface1)
+
+        # Shadow
+        panelnc_border_shadow: var(--ctp-surface0)
+
+
+        # Enabled action link
+        panelnc_links_enabled: var(--ctp-surface0)
+
+        # Disabled action link
+        panelnc_links_disabled: var(--ctp-surface1)

@@ -1,0 +1,41 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom tooltips
+        vs_tooltip_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom tooltips - - -
+
+        # Background
+        vs_tooltip_background: var(--ctp-mantle)
+
+        # Border
+        vs_tooltip_border: var(--ctp-surface2)
+
+        # Text
+        vs_tooltip_text: var(--ctp-text)
+
+        # Text - Title
+        vs_tooltip_text_title: var(--ctp-accent-color)
+
+
+
+        # - - - Tooltip buttons - - -
+
+        # Glyph
+        vs_tooltip_glyph_close: var(--ctp-text)
+
+        # Glyph - Hot
+        vs_tooltip_glyph_close_hot: var(--ctp-accent-color)
+
+
+        # Background - Hot
+        vs_tooltip_glyph_background_hot: var(--ctp-base)
+
+        # Border - Hot
+        vs_tooltip_glyph_frame_hot: var(--ctp-surface2)

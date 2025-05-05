@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Selection lasso - - -
+
+        # Frame
+        filemarquee_frame: var(--ctp-overlay2)
+
+        # Background
+        filemarquee_fill: var(--ctp-overlay2, 50)

@@ -1,0 +1,50 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Location bar - Source - - -
+
+        # Active foreground
+        locationbar_source_text_active: var(--ctp-text, 230)
+
+        # Active background
+        locationbar_active_source_background: var(--ctp-base)
+
+        # Inactive foreground
+        locationbar_source_text_inactive: var(--ctp-text, 50)
+
+        # Inactive background
+        locationbar_inactive_source_background: var(--ctp-mantle)
+
+
+
+        # - - - Location bar - Destination - - -
+
+        # Active foreground
+        locationbar_dest_text_active: var(--ctp-text, 230)
+
+        # Active background
+        locationbar_active_dest_background: var(--ctp-base)
+
+        # Inactive foreground
+        locationbar_dest_text_inactive: var(--ctp-text, 50)
+
+        # Inactive background
+        locationbar_inactive_dest_background: var(--ctp-mantle)
+
+
+
+        # - - - Location bar - Off - - -
+
+        # Active foreground
+        locationbar_active_off_text: var(--ctp-text, 230)
+
+        # Active background
+        locationbar_active_off_background: var(--ctp-mantle)
+
+        # Inactive foreground
+        locationbar_inactive_off_text: var(--ctp-text, 50)
+
+        # Inactive background
+        locationbar_inactive_off_background: var(--ctp-crust)

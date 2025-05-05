@@ -1,0 +1,12 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+        # Background
+        fd_background_source: var(--ctp-base)
+
+        # Destination Background
+        fd_background_dest: var(--ctp-mantle)
+
+        # Inline Sub-Folders
+        fd_subfolder_group_link_blend_color: var(--ctp-red)

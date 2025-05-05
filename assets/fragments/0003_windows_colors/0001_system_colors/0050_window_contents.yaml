@@ -1,0 +1,24 @@
+opus_theme_nc:
+  colors:
+    system_colors:
+      "@attributes":
+
+        # - - - Window contents - - -
+
+        # Text
+        WINDOWTEXT: var(--ctp-text)
+
+        # Background
+        WINDOW: var(--ctp-base)
+
+        # Frame
+        WINDOWFRAME: var(--ctp-surface0)
+
+        # Scrollbar
+        SCROLLBAR: var(--ctp-surface0)
+
+        # Desktop
+        BACKGROUND: var(--ctp-crust)
+
+        # Workspace
+        APPWORKSPACE: var(--ctp-mantle)

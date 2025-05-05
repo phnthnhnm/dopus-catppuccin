@@ -1,0 +1,51 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Linked tabs - - -
+
+        # Linked pair 1
+        linkedtab_00: var(--ctp-maroon)
+
+        # Linked pair 2
+        linkedtab_01: var(--ctp-green)
+
+        # Linked pair 3
+        linkedtab_02: var(--ctp-blue)
+
+        # Linked pair 4
+        linkedtab_03: var(--ctp-peach)
+
+        # Linked pair 5
+        linkedtab_04: var(--ctp-mauve)
+
+        # Linked pair 6
+        linkedtab_05: var(--ctp-yellow)
+
+        # Linked pair 7
+        linkedtab_06: var(--ctp-sky)
+
+        # Linked pair 8
+        linkedtab_07: var(--ctp-red)
+
+        # Linked pair 9
+        linkedtab_08: var(--ctp-lavender)
+
+        # Linked pair 10
+        linkedtab_09: var(--ctp-pink)
+
+        # Linked pair 11
+        linkedtab_10: var(--ctp-flamingo)
+
+        # Linked pair 12
+        linkedtab_11: var(--ctp-rosewater)
+
+        # Linked pair 13
+        linkedtab_12: var(--ctp-teal)
+
+        # Linked pair 14
+        linkedtab_13: var(--ctp-sapphire)
+
+        # Linked pair 15
+        linkedtab_14: var(--ctp-overlay2)

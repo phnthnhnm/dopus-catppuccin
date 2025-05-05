@@ -1,0 +1,51 @@
+opus_theme_nc:
+  colors:
+    named_color_bools:
+      "@attributes":
+
+        # Custom comboboxes
+        vs_combo_custom: yes
+
+    named_colors:
+      "@attributes":
+
+        # - - - Custom comboboxes - - -
+
+        # Text
+        vs_combo_text: var(--ctp-text)
+
+        # Text - Disabled
+        vs_combo_text_disabled: var(--ctp-surface2)
+
+
+        # Glyph
+        vs_combo_glyph: var(--ctp-text)
+
+        # Glyph - Disabled
+        vs_combo_glyph_disabled: var(--ctp-surface2)
+
+
+        # Background
+        vs_combo_background: var(--ctp-crust)
+
+        # Background - Hot
+        vs_combo_background_hot: var(--ctp-mantle)
+
+        # Background - Pressed
+        vs_combo_background_pressed: var(--ctp-surface1)
+
+        # Background - Disabled
+        vs_combo_background_disabled: var(--ctp-surface0)
+
+
+        # Border
+        vs_combo_border: var(--ctp-surface0)
+
+        # Border - Hot
+        vs_combo_border_hot: var(--ctp-surface1)
+
+        # Border - Pressed
+        vs_combo_border_pressed: var(--ctp-surface2)
+
+        # Border - Disabled
+        vs_combo_border_disabled: var(--ctp-surface0)

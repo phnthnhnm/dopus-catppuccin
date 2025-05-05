@@ -1,0 +1,31 @@
+opus_theme_nc:
+  colors:
+    named_colors:
+      "@attributes":
+
+        # - - - Synchronize conflicts - - -
+
+        # Unselected text
+        fd_error_unsel_text: var(--ctp-subtext1)
+
+        # Unselected background
+        fd_error_unsel_background: var(--ctp-red)
+
+        # Selected text
+        fd_error_sel_text: var(--ctp-subtext1)
+
+        # Selected background
+        fd_error_sel_background: var(--ctp-maroon)
+
+
+
+        # - - - Synchronize actions - - -
+
+        # Delete
+        fd_sync_action_delete: var(--ctp-red)
+
+        # Copy
+        fd_sync_action_copy: var(--ctp-sky)
+
+        # Replace
+        fd_sync_action_replace: var(--ctp-mauve)
