@@ -1,5 +1,3 @@
-import { JSDOM } from 'jsdom';
-
 /**
  * Sanitizes a string for XML content by replacing special characters with their entities
  * @param {string} str - The string to sanitize
@@ -23,12 +21,12 @@ function escapeXml(str) {
  * @param {string} name - The name to sanitize
  * @returns {string} - A valid XML element name
  */
-export function sanitizeXmlElementName(name) {
+function sanitizeXmlElementName(name) {
     // If name starts with a number or other invalid character, prefix it
     if (/^[^a-zA-Z_:]/.test(name)) {
         return `x_${name}`;
     }
-    
+
     // Replace any other invalid characters with underscores
     return name.replace(/[^a-zA-Z0-9_:.-]/g, '_');
 }
@@ -52,7 +50,7 @@ function jsonToXmlString(jsonObj, nodeName = null, indentLevel = 0) {
 
     // Handle arrays
     if (Array.isArray(jsonObj)) {
-        return jsonObj.map(item => 
+        return jsonObj.map(item =>
             jsonToXmlString(item, sanitizeXmlElementName(nodeName || 'item'), indentLevel)
         ).join('');
     }
@@ -79,12 +77,12 @@ function jsonToXmlString(jsonObj, nodeName = null, indentLevel = 0) {
 
         if (hasChildren) {
             result += '>\n';
-            
+
             // Add child elements
             Object.entries(children).forEach(([key, value]) => {
                 result += jsonToXmlString(value, key, indentLevel + 1);
             });
-            
+
             // Close tag
             result += `${indent}</${tagName}>\n`;
         } else {
@@ -110,10 +108,10 @@ function jsonToXmlString(jsonObj, nodeName = null, indentLevel = 0) {
  */
 export function jsonObjectToXml(jsonObj, rootName = null) {
     const xmlDeclaration = '<?xml version="1.0" encoding="UTF-8"?>\n';
-    
+
     // Get the root element name
     const actualRootName = rootName || (jsonObj ? Object.keys(jsonObj)[0] : 'root');
-    
+
     // Generate XML content
     let xmlContent;
     if (jsonObj && actualRootName && jsonObj[actualRootName]) {
@@ -123,6 +121,6 @@ export function jsonObjectToXml(jsonObj, rootName = null) {
         // Otherwise, use the whole object
         xmlContent = jsonToXmlString(jsonObj, actualRootName, 0);
     }
-    
+
     return xmlDeclaration + xmlContent;
 }

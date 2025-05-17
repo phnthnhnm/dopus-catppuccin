@@ -16,7 +16,6 @@
     "@catppuccin/palette": "^1.7.1",
     "archiver": "^7.0.1",
     "chalk": "^5.4.1",
-    "js-yaml": "^4.1.0",
-    "jsdom": "^26.1.0"
+    "js-yaml": "^4.1.0"
   }
 }

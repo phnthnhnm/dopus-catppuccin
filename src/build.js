@@ -1,8 +1,9 @@
 import { flavors, version } from "@catppuccin/palette";
 import chalk from "chalk";
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import archiver from 'archiver';
+import { parseArgs } from 'node:util';
 import { findYamlFiles, readYamlFile, mergeAttributes } from './yamlUtils.js';
 import { jsonObjectToXml } from './xmlUtils.js';
 import { getProjectPath, getFragmentsFolder, ensureDist, getAssetsFolder, getPreviewFolder } from './fileUtils.js';
@@ -12,8 +13,9 @@ import { getColorBank, replaceColorVariables } from './colorUtils.js';
  * Main function to convert YAML files to XML
  * @param {string} flavorKey - The key for the Catppuccin flavor
  * @param {object} flavor - The Catppuccin flavor object to use for theming
+ * @param {string} [accentColor] - Optional accent color name (e.g., "peach")
  */
-function convertYamlToXml(flavorKey, flavor) {
+function convertYamlToXml(flavorKey, flavor, accentColor) {
     try {
         const flavorName = flavor.name;
         console.log(chalk.blue(`Starting YAML to XML conversion for flavor: ${flavorName}`));
@@ -84,7 +86,7 @@ function convertYamlToXml(flavorKey, flavor) {
 
         // Replace CSS variables with their actual color values
         console.log(chalk.blue(`Replacing color variables with actual hex values for flavor: ${flavorName}`));
-        xmlString = replaceColorVariables(xmlString, flavor);
+        xmlString = replaceColorVariables(xmlString, flavor, accentColor);
 
         // Write to output file
         fs.writeFileSync(outputXmlPath, xmlString, 'utf-8');
@@ -178,15 +180,66 @@ function createThemeArchive(flavorKey, flavor) {
 }
 
 /**
+ * Parses the flavor arguments from the command line
+ * @param {string[]} flavorArgValue
+ * @returns {string[]} Array of selected flavor keys
+ */
+function parseFlavorArguments(flavorArgValue) {
+    var selectedFlavors = [];
+
+    if (!flavorArgValue) {
+      // If no flavor specified, use all flavors
+      selectedFlavors = Object.keys(flavors);
+      console.log(chalk.cyan('No flavor specified, building all flavors'));
+    } else {
+      // Split comma-separated input into array
+      selectedFlavors = flavorArgValue.split(',').map(f => f.trim());
+
+      // Validate that specified flavors exist
+      const invalidFlavors = selectedFlavors.filter(f => !flavors[f]);
+      if (invalidFlavors.length > 0) {
+        console.error(chalk.red(`Error: Invalid flavor(s): ${invalidFlavors.join(', ')}`));
+        console.log(chalk.yellow(`Available flavors: ${Object.keys(flavors).join(', ')}`));
+        process.exit(1);
+      }
+    }
+    return selectedFlavors;
+}
+
+/**
  * Main function that runs all build processes
  */
 function build() {
     console.log(chalk.cyan('=== Catppuccin Directory Opus Theme Builder ==='));
     console.log(chalk.cyan(`Using Catppuccin palette v${version}`));
 
+    const { values: { flavor, accentColor }, } = parseArgs(
+      {
+        options: {
+          flavor: {
+            type: "string",
+            short: "f",
+          },
+          accentColor: {
+            type: "string",
+            short: "c",
+            default: "peach",
+          },
+        },
+      }
+    );
+
+    // Enable support for building only specific flavors
+    var selectedFlavors = parseFlavorArguments(flavor);
+
+    console.log(chalk.cyan(`Accent color is set to: ${accentColor}`));
+
     Object.entries(flavors).forEach(([flavorKey, flavor]) => {
+        if (!selectedFlavors.includes(flavorKey)) {
+            return;
+        }
         console.log(chalk.cyan(`Building theme for ${flavor.name}`));
-        convertYamlToXml(flavorKey, flavor);
+        convertYamlToXml(flavorKey, flavor, accentColor);
         createThemeArchive(flavorKey, flavor);
     });
 }

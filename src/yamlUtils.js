@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import yaml from 'js-yaml';
 
 /**
@@ -19,21 +19,21 @@ function isObject(item) {
  */
 export function mergeAttributes(targetObj, sourceObj) {
     if (!targetObj || !sourceObj) return targetObj || sourceObj;
-    
+
     // Deep clone to avoid modifying original objects
     const result = JSON.parse(JSON.stringify(targetObj));
-    
+
     // Handle @attributes specially
     if (sourceObj['@attributes'] && result['@attributes']) {
         result['@attributes'] = { ...result['@attributes'], ...sourceObj['@attributes'] };
     } else if (sourceObj['@attributes']) {
         result['@attributes'] = { ...sourceObj['@attributes'] };
     }
-    
+
     // Handle all other properties
     Object.keys(sourceObj).forEach(key => {
         if (key === '@attributes') return; // Already handled
-        
+
         if (isObject(sourceObj[key])) {
             // If both have this key and both are objects, recursively merge
             if (isObject(result[key])) {
@@ -47,7 +47,7 @@ export function mergeAttributes(targetObj, sourceObj) {
             result[key] = sourceObj[key];
         }
     });
-    
+
     return result;
 }
 
@@ -59,18 +59,18 @@ export function mergeAttributes(targetObj, sourceObj) {
  */
 export function findYamlFiles(dirPath, excludeFiles = []) {
     let yamlFiles = [];
-    
+
     try {
         const entries = fs.readdirSync(dirPath, { withFileTypes: true });
-        
+
         for (const entry of entries) {
             const entryPath = path.join(dirPath, entry.name);
-            
+
             // Skip excluded files
             if (excludeFiles.some(exclude => path.resolve(dirPath, exclude) === entryPath)) {
                 continue;
             }
-            
+
             if (entry.isDirectory()) {
                 // Recursively search subdirectories
                 const subDirYamlFiles = findYamlFiles(entryPath, excludeFiles);
@@ -83,7 +83,7 @@ export function findYamlFiles(dirPath, excludeFiles = []) {
     } catch (err) {
         console.error(`Error reading directory ${dirPath}: ${err.message}`);
     }
-    
+
     return yamlFiles;
 }
 

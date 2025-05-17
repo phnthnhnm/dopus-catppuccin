@@ -77,6 +77,12 @@ The specific steps are:
 2. Run `pnpm install` in the repository directory to restore the dependencies.
 3. Run `pnpm build` to build all flavors. The resulting theme files are located in the `dist` directory.
 
+There are some optional command line parameters for influencing the build process:
+- `pnpm build "--flavor=latte,mocha"` will only build the Latte and Mocha flavors.
+- `pnpm build "--accentColor=green"` will set the value of the accent color variable to green.
+- `pnpm build "--flavor=mocha" "--accentColor=red"` combines both arguments.
+
+Note: If you are using Powershell, you should put quotes around the command line arguments to ensure arrays are passed properly into Node.js instead of being evaluated by Powershell.
 
 ## 💝 Thanks to
 
